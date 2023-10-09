@@ -1,12 +1,22 @@
-/* Typography */
+/* Screen size dependent */
 
 html {
 	font-family: 'Roboto', sans-serif;
 }
 
+.avatar {
+	border-radius: 50%;
+	max-width: 200px;
+	margin-bottom: 20px;
+}
+
 @media (min-width: 576px) {
 	html {
 		font-size: 14px;
+	}
+
+	.avatar {
+		max-width: 230px;
 	}
 }
 
@@ -14,17 +24,29 @@ html {
 	html {
 		font-size: 16px;
 	}
+
+	.avatar {
+		max-width: 270px;
+	}
 }
 
 @media (min-width: 992px) {
 	html {
 		font-size: 18px;
 	}
+
+	.avatar {
+		max-width: 310px;
+	}
 }
 
 @media (min-width: 1200px) {
 	html {
 		font-size: 20px;
+	}
+
+	.avatar {
+		max-width: 350px;
 	}
 }
 
@@ -73,3 +95,4 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
+
