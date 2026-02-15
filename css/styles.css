@@ -77,12 +77,34 @@ main > .tagline {
 	font-weight: 100;
 }
 
+.icons-social {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
 .icons-social i {
+	display: block;
+	line-height: 1;
 	padding: 10px;
 }
 
 .icons-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
+}
+
+.icons-social a .icon-logo {
+	display: block;
+	width: 3em;
+	height: 3em;
+	line-height: 0;
+	max-width: none;
+	padding: 10px;
+	box-sizing: content-box;
 }
 
 .devto {
