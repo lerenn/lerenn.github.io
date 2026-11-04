@@ -6,7 +6,7 @@ html {
 
 .avatar {
 	border-radius: 50%;
-	max-width: 200px;
+	max-width: 150px;
 	margin-bottom: 20px;
 }
 
@@ -16,7 +16,7 @@ html {
 	}
 
 	.avatar {
-		max-width: 230px;
+		max-width: 170px;
 	}
 }
 
@@ -26,7 +26,7 @@ html {
 	}
 
 	.avatar {
-		max-width: 270px;
+		max-width: 200px;
 	}
 }
 
@@ -36,7 +36,7 @@ html {
 	}
 
 	.avatar {
-		max-width: 310px;
+		max-width: 230px;
 	}
 }
 
@@ -46,7 +46,7 @@ html {
 	}
 
 	.avatar {
-		max-width: 350px;
+		max-width: 260px;
 	}
 }
 
@@ -67,7 +67,7 @@ main {
 
 main > .intro {
 	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
+	font-size: 2.75em;
 	font-weight: 600;
 }
 
